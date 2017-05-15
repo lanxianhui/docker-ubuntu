@@ -8,4 +8,4 @@ RUN bash /assets/setup.sh
 EXPOSE 22
 
 
-
+CMD /usr/sbin/startup.sh && /usr/sbin/sshd -D
