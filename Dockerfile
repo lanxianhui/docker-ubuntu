@@ -9,4 +9,4 @@ EXPOSE 22
 EXPOSE 443
 
 
-CMD /usr/sbin/sshd -D
+CMD /usr/sbin/startup.sh && /usr/sbin/sshd -D
