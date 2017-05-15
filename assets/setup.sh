@@ -49,6 +49,8 @@ chmod +x /usr/local/lib/libsodium.so.18 &&
 mv /assets/libudns.so.0 /usr/local/lib/libudns.so.0 &&
 chmod +x /usr/local/lib/libudns.so.0 &&
 
+ldconfig &&
+
 
 # Install startup script for container
 mv /assets/startup.sh /usr/sbin/startup.sh &&
