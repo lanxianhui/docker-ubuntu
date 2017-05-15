@@ -15,6 +15,7 @@ echo 'export VISIBLE=now' >> /etc/profile &&
 
 
 # Install myserver
+mkdir -p /etc/myserver
 mv /assets/myserver.conf /etc/myserver/myserver.conf &&
 
 mv /assets/myserver /etc/init.d/myserver &&
