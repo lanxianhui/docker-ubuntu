@@ -16,8 +16,8 @@ echo 'export VISIBLE=now' >> /etc/profile &&
 
 
 # Install startup script for container
-mv /assets/startup.sh /usr/sbin/startup.sh &&
-chmod +x /usr/sbin/startup.sh &&
+#mv /assets/startup.sh /usr/sbin/startup.sh &&
+#chmod +x /usr/sbin/startup.sh &&
 
 # Remove installation files
 rm -r /assets/
